@@ -1,0 +1,92 @@
+
+body {
+    background-color: DarkSlateGray;
+    color: DarkSlateGray;
+    font-family: monospace;
+    line-height: 1.5;
+    margin: 0 12px;
+  }
+  header {
+    background-color: rgb(255, 255, 255);
+    background-image: url("images/ab6761610000e5eb519065f878e37f78e069c8ad.jfif");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  
+  header nav {
+    background-color: rgb(117, 204, 110);
+    font-size: 22px; text-align: center;
+  }
+  nav ul {
+    width: 75%;
+    margin: 0 auto;
+  }
+  nav li {
+    display: inline-block; /* list items komen naast elkaar te staan */
+  }
+  
+  nav a {
+    display: block; /* anchor elementen kunnen zo grootte krijgen */
+    color: rgb(255, 255, 255);
+    padding: 24px;
+  }
+  
+  nav a:hover {
+    background-color: rgb(254, 254, 3);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* vormgeving website en inhoud */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header h1 {
+    padding: 32px;
+    letter-spacing: 2ch; text-align: center;
+  }
+  header h1 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  header h1 a:hover {
+    color: MidnightBlue;
+  }
+
+  img {
+    width: 100%;
+  }
+  header img {width: 10%;}
+  #merchandise img {
+    width: 45%;
+  }
+  main {
+    background-color: Gainsboro;
+    padding: 16px 0;
+  }
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  section {
+    min-height: 22vh;
+    padding: 32px 40px;
+  }
+  
+  section * {
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    max-width: 70ch;
+  }
+  
+  
+
+  footer {
+    color: rgb(255, 255, 255);
+  }
