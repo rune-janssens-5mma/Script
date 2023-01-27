@@ -1,0 +1,58 @@
+
+@import url(//db.onlinewebfonts.com/c/e0fa406cbe458b32a7ea4e9a379b85fc?family=DIN+2014);
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: din-2014, sans-serif;
+}
+h2{
+    margin-bottom: 1 rem;
+}
+
+
+header{
+    background-color: aqua;
+}
+header img{
+    width: 3 rem;
+}
+header img{
+    width: 50px;
+}
+header nav li{
+    display: inline-block;
+    font-size: 20px;
+}
+header nav a{
+    padding: 20px;
+    text-decoration: none;
+}
+header nav a :hover{
+    text-decoration: overline;
+}
+header input{
+    width: 7rem;
+    padding: 0.5 rem;
+    height: 2rem;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    font-size: 30px;
+    color: brown;
+    margin-left: 20px;
+}
+
+.align-center{
+    align-items: baseline;
+}
+
