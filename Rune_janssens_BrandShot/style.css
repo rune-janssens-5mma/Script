@@ -18,16 +18,18 @@ h2{
 
 header{
     background-color: rgb(234, 234, 234);
+    padding: 2%;
 }
+
 header img{
     width: 3 rem;
 }
 header img{
-    width: 30px;
+    width: 50px;
 }
 header nav li{
     display: inline-block;
-    font-size: 10px;
+    font-size: 20px;
 }
 header nav a{
     padding: 20px;
@@ -48,7 +50,7 @@ header input{
     align-items: center;
 }
 i{
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     margin-left: 20px;
 }
