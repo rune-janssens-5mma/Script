@@ -124,6 +124,7 @@ main .flex-container {
 }
 
 #Schoenen .flex-item {
+    margin-top: 5%;
     gap: 1%;
     flex-direction: row;
 }
