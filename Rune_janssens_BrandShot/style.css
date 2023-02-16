@@ -93,6 +93,7 @@ figcaption {
 figcaption h1 {
     margin-bottom: 2rem;
     color: black;
+    margin-left: 9%;
 }
 
 figcaption span {
@@ -106,7 +107,7 @@ figcaption span {
 h2{
    margin-top: 5%; 
    margin-bottom: 5%;
-   margin-inline-start: 5%;
+   margin-inline-start: 1%;
 }
 #Schoenen{
     flex: content;
