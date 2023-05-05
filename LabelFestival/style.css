@@ -77,7 +77,23 @@ main {
     padding: 2vw 5vw;
     margin-top: 20px;
 }
+.datum {
+    list-style-type: none;
+}
 
+.datum li {
+    float: left;
+    /* float elements to the left */
+    margin-left: 20px;
+    /* add gap between elements */
+}
+
+.datum {
+    overflow: hidden;
+    /* clear float */
+    text-align: right;
+    /* align to the right of the page */
+}
 .lang {
     border-radius: 100%;
     border: 2px solid black;
@@ -104,8 +120,8 @@ h3 {
 
 .juni-datum {
     display: flex;
-    gap: 60px;
-    margin-left: 40px;
+    gap: 50px;
+    margin-left: 30px;
 }
 
 footer {
@@ -163,20 +179,3 @@ hr {
     font-size: 0.8rem;
 }
 
-.datum {
-    list-style-type: none;
-}
-
-.datum li {
-    float: left;
-    /* float elements to the left */
-    margin-left: 20px;
-    /* add gap between elements */
-}
-
-.datum {
-    overflow: hidden;
-    /* clear float */
-    text-align: right;
-    /* align to the right of the page */
-}
