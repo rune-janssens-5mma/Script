@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap site</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<header>
-
-</header>
 <body>
-   <div class="container">
-    <div class="row">
-        <div class=""></div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <div class="mr-auto">
+        <p>Some Information</p>
+      </div>
+      <a class="navbar-brand mx-auto" href="#">
+        <img src="logo.png" alt="Logo" width="50">
+      </a>
+      <div class="ml-auto">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-   </div>
+  </nav>
+
+  <!-- Image Grid -->
+  <div class="container image-grid">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt="Image 1">
+        <h4>Image 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="men-1777352_960_720.jpg" alt="Image 2">
+        <h4>Image 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="istockphoto-1249041775-612x612.jpg" alt="Image 3">
+        <h4>Image 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul>
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+        <li><a href="#">Option 3</a></li>
+      </ul>
+      <div>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
