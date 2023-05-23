@@ -24,8 +24,7 @@ body {
 h1 {
     color: #FCC92C;
 }
-h2{
-}
+
 h3 {
     font-size: xx-large;
 }
@@ -121,7 +120,29 @@ main {
     flex-direction: row;
 }
 
+.top {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: right;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
 
+.nle-choppa {
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.video {
+    margin-left: 50rem;
+    font-size: x-large;
+    margin-left: 10rem;
+}
 
 footer {
     padding: 5vw;
