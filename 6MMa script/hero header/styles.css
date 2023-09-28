@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    background-color: #6DFC56;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Algemene stijl voor de navigatiebalk */
+header {
+    color: #ffffff;
+    padding: 10px 20px;
+}
+/* Stijl voor het logo */
+.logo {
+    margin-right: auto; /* Plaatst het logo helemaal rechts */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Stijl voor de navigatielinks */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Stijl voor de "Contact Us" knop met rechthoekige randen */
+.contact-button {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* Stijl voor de introsectie */
+.intro {
+    padding: 50px;
+    text-align: left;
+}
+
+.intro h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Stijl voor de "Join Us" knop met afgeronde randen */
+.join-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Optionele hover-stijl voor knoppen */
+.join-button:hover,
+.contact-button:hover {
+    background-color: #fff;
+    color: #333;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #6DFC56;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Style for the navigation bar */
+nav {
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff; /* Change the text color */
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Style for the logo */
+.logo img {
+    margin-left: 80px;
+    margin-top: 20px;
+    max-width: 100px; /* Adjust the logo size as needed */
+}
+
+.nav-links {
+    margin-top: -22px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Style for the navigation links */
+.nav-links li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between links */
+}
+
+.nav-links a {
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+}
+
+.login-button a {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.login-button a:hover {
+    background-color: #e64a19;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding: 100px 5% 0px 5%;
+    gap: 10%;
+}
+
+.text {
+    margin-right: 20px;
+    flex: 1.5;
+}
+
+.fox {
+    height: 100%;
+    flex: 1;
+    height: 70%;
+    width: 70%;
+    padding-top: 20px;
+    display: flex;
+}
+
+.fox img{
+    display: block;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.text p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+}
